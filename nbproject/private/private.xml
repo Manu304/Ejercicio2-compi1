@@ -3,12 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/token/Numero.java</file>
             <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/MainFrame.java</file>
-            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/Token/Vocal.java</file>
-            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/Token/Numero.java</file>
-            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/Lexer/AnalizadorLexico.java</file>
-            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/Token/Token.java</file>
-            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/Token/TipoToken.java</file>
+            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/token/TipoToken.java</file>
+            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/token/Vocal.java</file>
+            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/reportes/ReporteFrame.java</file>
+            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/lexer/AnalizadorLexico.jflex</file>
+            <file>file:/home/manu/Documents/NetBeansProjects/Ejercicio2/src/token/Token.java</file>
         </group>
     </open-files>
 </project-private>
