@@ -70,9 +70,11 @@ public class ReporteFrame extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tablaTokens = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Reportes");
+        setPreferredSize(new java.awt.Dimension(600, 600));
 
         panelVocales.setLayout(new java.awt.BorderLayout());
 
@@ -99,9 +101,14 @@ public class ReporteFrame extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        tablaTokens.setMinimumSize(new java.awt.Dimension(700, 900));
         jScrollPane1.setViewportView(tablaTokens);
 
         jPanel1.add(jScrollPane1, java.awt.BorderLayout.CENTER);
+
+        jLabel1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel1.setText("Tabla de Números Enteros");
+        jPanel1.add(jLabel1, java.awt.BorderLayout.NORTH);
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.NORTH);
 
@@ -110,6 +117,7 @@ public class ReporteFrame extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;

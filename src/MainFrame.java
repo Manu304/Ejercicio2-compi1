@@ -28,7 +28,7 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
-//        tokens.add(new Vocal(lexema, columan, fila));
+        setLocationRelativeTo(null);
     }
 
     /**
